@@ -5,6 +5,7 @@
 # Copyright (c) 2000-2002 Fabrice Bellard
 # Copyright (c) 2005-2008 Diego Biurrun
 # Copyright (c) 2005-2008 Mans Rullgard
+# Copyright (c) 2015-2018 Steven Xu
 #
 
 # Prevent locale nonsense from breaking basic text processing.
