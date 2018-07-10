@@ -543,7 +543,7 @@ tolower(){
 c_escape(){
     echo "$*" | sed 's/["\\]/\\\0/g'
 }
-
+#######
 sh_quote(){
     v=$(echo "$1" | sed "s/'/'\\\\''/g")
     test "x$v" = "x${v#*[!A-Za-z0-9_/.+-]}" || v="'$v'"
